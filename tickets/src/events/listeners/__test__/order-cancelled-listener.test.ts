@@ -1,6 +1,6 @@
 import { OrderCancelledListener } from "../order-cancelled-listener";
 import { natsWrapper } from "../../../nats-wrapper";
-import { Ticket } from "../../../model/ticket";
+import { Ticket } from "../../../models/ticket";
 import mongoose from "mongoose";
 import { OrderCancelledEvent } from "@altick/common";
 import { Message } from "node-nats-streaming";
